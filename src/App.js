@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Home></Home>
+      <main className='main'>
+        <Home></Home>
+      </main>
     </>
   );
 }
