@@ -3,15 +3,19 @@ import React, { useState } from 'react';
 import './portfolio.css';
 
 import salão from '../../assets/salão.png';
+import api from "../../assets/api.png"
+import imove from "../../assets/moveis.png"
 
 // Componente Card
-const Card = ({ type, image, text }) => {
+const Card = ({ type, image, text, link }) => {
   return (
     <div className={`card ${type}`}>
       <img src={image} alt={text} className="card-image" />
       <div className="card-text">
         <p>{text}</p>
-        <a href="#" className="card-demo">Demo</a>
+        <a href={link} className="card-demo" target="_blank" rel="noopener noreferrer">
+          Demo
+        </a>
       </div>
     </div>
   );
@@ -21,10 +25,9 @@ const Portfolio = () => {
   const [selectedType, setSelectedType] = useState('all');
 
   const cards = [
-    { id: 1, type: "front", image: salão, text: 'Salão landing page' },
-    { id: 2, type: 'front', image: salão, text: 'Another Frontend Card' },
-    { id: 3, type: 'back', image: salão, text: 'Backend Card 1' },
-    { id: 4, type: 'back', image: salão, text: 'Backend Card 2' }
+    { id: 1, type: "front", image: salão, text: 'Salão landing page', link: 'https://salao01.vercel.app' },
+    { id: 2, type: 'front', image: api, text: 'API landing page', link: 'https://ap-fipe-my.vercel.app' },
+    { id: 3, type: 'back', image: imove, text: 'imobiliária fullstack', link: 'https://homyz-nu.vercel.app' },
   ];
 
   const handleTypeChange = (type) => {
@@ -50,13 +53,13 @@ const Portfolio = () => {
             className={selectedType === 'front' ? 'active' : ''}
             onClick={() => handleTypeChange('front')}
           >
-            Frontend
+            Front-end
           </button>
           <button
             className={selectedType === 'back' ? 'active' : ''}
             onClick={() => handleTypeChange('back')}
           >
-            Backend
+            Full-stack
           </button>
         </div>
       </nav>
@@ -67,6 +70,7 @@ const Portfolio = () => {
             type={card.type} 
             image={card.image}
             text={card.text}
+            link={card.link}
           />
         ))}
       </div>
@@ -75,4 +79,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-

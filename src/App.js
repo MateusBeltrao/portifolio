@@ -15,7 +15,9 @@ function App() {
         <Portfolio></Portfolio>
         <About></About>
         <Skills></Skills>
-        <Services></Services>
+        {/*   <Services></Services> */}
+
+      
        
       </main>
     </>

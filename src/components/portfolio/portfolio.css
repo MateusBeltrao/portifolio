@@ -60,7 +60,7 @@ h1{
   
   .card-image {
     width: 50%;
-    height: 50%;
+    height: 60%;
     object-fit: cover; /* Faz a imagem cobrir a área sem distorção */
   }
   
@@ -95,7 +95,7 @@ h1{
     }
 
     .card-image{
-        width: 60%;
+        width: 55%;
         height: 50%;
     }
   }
@@ -104,11 +104,14 @@ h1{
 
   @media (max-width: 500px) {
     .card {
-      width: calc(80% - 20px); /* Em telas menores, ocupará a largura total menos o espaçamento */
+      width: calc(90% - 20px); /* Em telas menores, ocupará a largura total menos o espaçamento */
     }
 
   
-
+    .card-image{
+        width: 80%;
+        height: 50%;
+    }
 
   }
   
