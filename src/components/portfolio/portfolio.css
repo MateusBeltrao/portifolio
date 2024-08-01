@@ -1,0 +1,114 @@
+/* src/components/portfolio.css */
+
+h1{
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .filter-buttons button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0; /* Cor de fundo padrão (cinza claro) */
+    color: #333; /* Cor do texto */
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #d0d0d0; /* Cor ao passar o mouse (cinza escuro) */
+  }
+  
+  .filter-buttons button.active {
+    background-color: #b0b0b0; /* Cor do fundo quando o botão está ativo */
+    color: #000; /* Cor do texto quando o botão está ativo */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 50px;
+  }
+  
+  .card {
+    width: calc(40% - 20px); /* Dois cards por linha com espaçamento */
+    height: 300px; /* Altura do card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden; /* Garante que o conteúdo não saia dos limites do card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.334); /* Adiciona uma sombra suave */
+    position: relative; /* Necessário para posicionar o link "Demo" */
+  }
+  
+  .card-image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /* Faz a imagem cobrir a área sem distorção */
+  }
+  
+  .card-text {
+    padding: 10px;
+    text-align: center;
+    color: rgb(133, 133, 133); /* Cor do texto */
+    width: 50%;
+  }
+  
+  .card-demo {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background-color: #32363a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  
+  }
+  
+  .card-demo:hover {
+    background-color: #0a0a0a;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(80% - 20px); /* Em telas menores, ocupará a largura total menos o espaçamento */
+    }
+
+    .card-image{
+        width: 60%;
+        height: 50%;
+    }
+  }
+
+
+
+  @media (max-width: 500px) {
+    .card {
+      width: calc(80% - 20px); /* Em telas menores, ocupará a largura total menos o espaçamento */
+    }
+
+  
+
+
+  }
+  
