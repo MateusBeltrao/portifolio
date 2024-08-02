@@ -4,12 +4,11 @@ h1{
     margin-bottom: 20px;
 }
 
-.nav {
+.nav1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin-bottom: 80px;
   }
   
   .filter-buttons {

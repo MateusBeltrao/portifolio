@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -10,7 +10,7 @@
 
 
 
-.nav{
+.nav {
     height: calc(var(--header-height) + 1.5rem);
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
     column-gap: 1rem;
 }
 
-.nav_list{
+.nav_list {
     display: flex;
 }
 
@@ -60,13 +60,19 @@
     .header {
         top: initial;
         bottom: 0;
+      
     }
+
+   
 
     .nav {
         height: var(--header-height);
+       
+      
     }
 
     .nav_menu{
+       
         position: fixed;
         bottom: -100%;
         left: 0;
@@ -83,6 +89,7 @@
     }
 
     .nav_list {
+      
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
@@ -114,6 +121,7 @@
     .nav_close,
     .nav_toggle {
         display: block;
+     
     }
 }
 

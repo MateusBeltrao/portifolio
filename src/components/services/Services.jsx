@@ -20,9 +20,9 @@ const Services = () => {
         <div className="services_container container grid">
             <div className="services_content">
                 <div>
-                    <i className='uil uil-web-grid services_icon'></i>
+                    <i className='uil uil-html5  services_icon'></i>
                     <h3 className='services_title'>
-                        Product <br /> Designer
+                    Produção <br /> Web Designer
                     </h3>
                 </div>
 
@@ -34,44 +34,44 @@ const Services = () => {
                     <div className='services_modal-content'>
                         <i onClick={() => toggleTab(0)} className='uil uil-times services_modal-close'></i>
 
-                        <h3 className='services_modal-title'>Product Designer</h3>
+                        <h3 className='services_modal-title'>Produção Web Designer</h3>
                         <p className='services_modal-description'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt harum ducimus enim reiciendis eos ipsum suscipit sed voluptates itaque veniam illo, velit nulla odio alias incidunt animi quos nam dolore?
+                        Utilizo HTML5 para estruturar conteúdo, WordPress para gerenciamento eficiente e React para criar interfaces dinâmicas. Meu objetivo é garantir um design moderno e responsivo, adaptando os sites a diferentes dispositivos e tamanhos de tela.
                         </p>
 
                         <ul className='sercices_modal-services grid'>
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                    Desenvolvo a interface do usuário
                                 </p>
                             </li>
 
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                    Crio e otimizo interfaces web
                                 </p>
                             </li>
 
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                Conceito e implemento soluções de front-end
                                 </p>
                             </li>
 
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                Transformo ideias em experiências digitais
                                 </p>
                             </li>
 
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                Desenvolvo sites modernos e responsivos
                                 </p>
                             </li>
                         </ul>
@@ -81,9 +81,10 @@ const Services = () => {
 
             <div className="services_content">
                 <div>
-                    <i className='uil uil-web-grid services_icon'></i>
+                    
+                    <i className='uil uil-database services_icon'></i>
                     <h3 className='services_title'>
-                        Product <br /> Designer
+                    Produção <br /> Backend
                     </h3>
                 </div>
 
@@ -97,42 +98,42 @@ const Services = () => {
 
                         <h3 className='services_modal-title'>Product Designer</h3>
                         <p className='services_modal-description'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt harum ducimus enim reiciendis eos ipsum suscipit sed voluptates itaque veniam illo, velit nulla odio alias incidunt animi quos nam dolore?
+                        Utilizo Node.js e PHP para desenvolver a lógica de backend e criar APIs. Para gerenciamento de dados, trabalho com PostgreSQL e MongoDB, combinando um banco de dados relacional robusto com um banco de dados NoSQL flexível. Essas tecnologias garantem soluções backend eficientes e escaláveis.
                         </p>
 
                         <ul className='sercices_modal-services grid'>
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                Desenvolvo a lógica de backend com Node.js e PHP
                                 </p>
                             </li>
 
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                Crio e gerencio bancos de dados
                                 </p>
                             </li>
 
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                Implemento soluções de backend robustas com Node.js e PHP
                                 </p>
                             </li>
 
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                Estruturo e otimizo dados com PostgreSQL e MongoDB
                                 </p>
                             </li>
 
                             <li className='services_modal-services'>
                                 <i className='uil uil-check-circle services_modal-icon'></i>
                                 <p className='services_modal-info'>
-                                    I develop the user interface
+                                Construo APIs e gerencio dados
                                 </p>
                             </li>
                         </ul>
@@ -140,66 +141,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className="services_content">
-                <div>
-                    <i className='uil uil-web-grid services_icon'></i>
-                    <h3 className='services_title'>
-                        Product <br /> Designer
-                    </h3>
-                </div>
-
-                <span className='services_button' onClick={() => toggleTab(3)}>View More
-                    <i className='uil uil-arrow-right services_button-icon'></i>
-                </span>
-
-                <div className={toggleState === 3 ? "services_modal active-modal" : "services_modal"}>
-                    <div className='services_modal-content'>
-                        <i onClick={() => toggleTab(0)} className='uil uil-times services_modal-close'></i>
-
-                        <h3 className='services_modal-title'>Product Designer</h3>
-                        <p className='services_modal-description'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt harum ducimus enim reiciendis eos ipsum suscipit sed voluptates itaque veniam illo, velit nulla odio alias incidunt animi quos nam dolore?
-                        </p>
-
-                        <ul className='sercices_modal-services grid'>
-                            <li className='services_modal-services'>
-                                <i className='uil uil-check-circle services_modal-icon'></i>
-                                <p className='services_modal-info'>
-                                    I develop the user interface
-                                </p>
-                            </li>
-
-                            <li className='services_modal-services'>
-                                <i className='uil uil-check-circle services_modal-icon'></i>
-                                <p className='services_modal-info'>
-                                    I develop the user interface
-                                </p>
-                            </li>
-
-                            <li className='services_modal-services'>
-                                <i className='uil uil-check-circle services_modal-icon'></i>
-                                <p className='services_modal-info'>
-                                    I develop the user interface
-                                </p>
-                            </li>
-
-                            <li className='services_modal-services'>
-                                <i className='uil uil-check-circle services_modal-icon'></i>
-                                <p className='services_modal-info'>
-                                    I develop the user interface
-                                </p>
-                            </li>
-
-                            <li className='services_modal-services'>
-                                <i className='uil uil-check-circle services_modal-icon'></i>
-                                <p className='services_modal-info'>
-                                    I develop the user interface
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        
 
        
         </div>
