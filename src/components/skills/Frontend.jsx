@@ -31,7 +31,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills_name">HTML5</h3>
-                            <span className='skills_lavel'>Avançando</span>
+                            <span className='skills_lavel'>Especialista</span>
                         </div>
                     </div>
 
@@ -40,7 +40,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills_name">css</h3>
-                            <span className='skills_lavel'>Avançando</span>
+                            <span className='skills_lavel'>Especialista</span>
                         </div>
                     </div>
 
@@ -49,7 +49,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills_name">JavaCript</h3>
-                            <span className='skills_lavel'>Avançando</span>
+                            <span className='skills_lavel'>Especialista</span>
                         </div>
                     </div>
 

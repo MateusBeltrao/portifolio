@@ -20,19 +20,19 @@ const Header = () => {
 
                     <li className='nav_item'>
                         <a href="#about" className='nav_link'>
-                            <i className='uil uil-user nav_icon'></i>About
+                            <i className='uil uil-user nav_icon'></i>Sobre
                         </a>
                     </li>
 
                     <li className='nav_item'>
                         <a href="#skills" className='nav_link'>
-                            <i className='uil uil-file-alt nav_icon'></i>Skills
+                            <i className='uil uil-file-alt nav_icon'></i>Habilidades
                         </a>
                     </li>
 
                     <li className='nav_item'>
                         <a href="#services" className='nav_link'>
-                            <i className='uil-briefcase uil nav_icon'></i>services
+                            <i className='uil-briefcase uil nav_icon'></i>Serviços
                         </a>
                     </li>
                     
@@ -45,7 +45,7 @@ const Header = () => {
                     <li className='nav_item'>
                         <a href="#contatc" className='nav_link'>
                             <i className='uil uil-message nav_icon'></i>
-                            contact
+                            Contatos
                         </a>
                     </li>
                 </ul>
