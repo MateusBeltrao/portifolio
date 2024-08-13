@@ -40,7 +40,7 @@ const Portfolio = () => {
 
   return (
     <section>
-      <nav className="nav1 container">
+      <nav className="nav1 container" id="portfolio">
         <h1>Portfolio</h1>
         <div className="filter-buttons">
           <button
