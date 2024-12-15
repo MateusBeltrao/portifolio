@@ -6,6 +6,7 @@ import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonias/Testimonials';
+import Zap from './assets/zap.png'
 
 function App() {
   return (
@@ -16,11 +17,20 @@ function App() {
         <Portfolio></Portfolio>
         <About></About>
         <Skills></Skills>
-        <Services></Services> 
+        <Services></Services>
         <Testimonials></Testimonials>
-      
-       
       </main>
+      <a
+        href="https://wa.me/5591982265217"
+        className="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src={Zap} // Caminho para o ícone
+          alt="WhatsApp"
+        />
+      </a>
     </>
   );
 }

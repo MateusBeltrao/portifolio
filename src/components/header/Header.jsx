@@ -19,6 +19,12 @@ const Header = () => {
                     </li>
 
                     <li className='nav_item'>
+                        <a href="#portfolio" className='nav_link'>
+                            <i className='uil uil-scenery nav_icon'></i> portfolio
+                        </a>
+                    </li>
+
+                    <li className='nav_item'>
                         <a href="#about" className='nav_link'>
                             <i className='uil uil-user nav_icon'></i>Sobre
                         </a>
@@ -36,11 +42,7 @@ const Header = () => {
                         </a>
                     </li>
                     
-                    <li className='nav_item'>
-                        <a href="#portfolio" className='nav_link'>
-                            <i className='uil uil-scenery nav_icon'></i> portfolio
-                        </a>
-                    </li>
+                   
 
                     <li className='nav_item'>
                         <a href="#contatc" className='nav_link'>

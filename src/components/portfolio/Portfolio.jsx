@@ -6,6 +6,7 @@ import salão from '../../assets/salão.png';
 import api from "../../assets/api.png"
 import imove from "../../assets/moveis.png"
 import alfa from "../../assets/alfa.png"
+import deposito from '../../assets/deposito.png'
 
 // Componente Card
 const Card = ({ type, image, text, link }) => {
@@ -29,7 +30,8 @@ const Portfolio = () => {
     { id: 1, type: "front",  image: alfa, text: "business landing page", link: "https://business-seven-drab.vercel.app" },
     { id: 2, type: 'front', image: api, text: 'API landing page', link: 'https://ap-fipe-my.vercel.app' },
     { id: 3, type: 'back', image: imove, text: 'imobiliária fullstack', link: 'https://homyz-nu.vercel.app' },
-    { id: 4, type: 'font', image: salão, text: 'Salão landing page', link: 'https://salao01.vercel.app'}
+    { id: 4, type: 'front', image: salão, text: 'Salão landing page', link: 'https://salao01.vercel.app'},
+    { id: 5, type: 'back', image: deposito, texto: 'Depósito pedido integrado', link: 'https://depositomerceariadalagoa.vercel.app/'}
   ];
 
   const handleTypeChange = (type) => {

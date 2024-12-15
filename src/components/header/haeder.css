@@ -3,9 +3,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--z-fixed);
+    z-index: 1000; /* Garanta que a Navbar fique acima de outros elementos */
     background-color: var(--body-color);
 }
+
 
 
 
