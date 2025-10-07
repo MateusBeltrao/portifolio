@@ -57,13 +57,13 @@ const Portfolio = () => {
             className={selectedType === 'front' ? 'active' : ''}
             onClick={() => handleTypeChange('front')}
           >
-            Front-end
+            Landing pages   
           </button>
           <button
             className={selectedType === 'back' ? 'active' : ''}
             onClick={() => handleTypeChange('back')}
           >
-            Full-stack
+            Institucionais
           </button>
         </div>
       </nav>
