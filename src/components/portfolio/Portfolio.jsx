@@ -4,7 +4,7 @@ import './portfolio.css';
 
 import salão from '../../assets/salão.png';
 import api from "../../assets/api.png"
-import imove from "../../assets/moveis.png"
+import imove from "../../assets/redux.png"
 import alfa from "../../assets/alfa.png"
 import deposito from '../../assets/deposito.png'
 
