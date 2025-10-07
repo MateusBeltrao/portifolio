@@ -7,6 +7,7 @@ import api from "../../assets/api.png"
 import imove from "../../assets/redux.png"
 import alfa from "../../assets/alfa.png"
 import deposito from '../../assets/deposito.png'
+import mary from '../../assets/marylente.png'
 
 // Componente Card
 const Card = ({ type, image, text, link }) => {
@@ -30,8 +31,9 @@ const Portfolio = () => {
     { id: 1, type: "back",  image: alfa, text: "business landing page", link: "https://business-seven-drab.vercel.app" },
     { id: 2, type: 'front', image: api, text: 'API landing page', link: 'https://ap-fipe-my.vercel.app' },
     { id: 3, type: 'back', image: imove, text: 'aluguel de carros', link: 'https://ridelux.vercel.app' },
-    { id: 4, type: 'front', image: salão, text: 'Salão landing page', link: 'https://salao01.vercel.app'},
-    { id: 5, type: 'back', image: deposito, texto: 'Depósito pedido integrado', link: 'https://depositomerceariadalagoa.vercel.app/'}
+    { id: 4, type: 'front', image: salão, text: 'salão e barbearia', link: 'https://salao01.vercel.app'},
+    { id: 5, type: 'back', image: deposito, texto: 'Depósito pedido integrado', link: 'https://depositomerceariadalagoa.vercel.app/'},
+    { id: 6, type: 'front', image: mary, texto: 'salão de beleza', link: 'https://mary-2424.vercel.app'}
   ];
 
   const handleTypeChange = (type) => {
