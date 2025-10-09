@@ -7,7 +7,7 @@ import api from "../../assets/api.png"
 import imove from "../../assets/redux.png"
 import alfa from "../../assets/alfa.png"
 import deposito from '../../assets/deposito.png'
-import mary from '../../assets/marylente.png'
+import mary from '../../assets/studio.png'
 
 // Componente Card
 const Card = ({ type, image, text, link }) => {

@@ -7,6 +7,7 @@ import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonias/Testimonials';
 import Zap from './assets/zap.png'
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Skills></Skills>
         <Services></Services>
         <Testimonials></Testimonials>
+        {/*<Contact></Contact>*/}
       </main>
       <a
         href="https://wa.me/5591982265217"
