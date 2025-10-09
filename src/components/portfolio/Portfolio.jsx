@@ -32,8 +32,8 @@ const Portfolio = () => {
     { id: 2, type: 'front', image: api, text: 'API landing page', link: 'https://ap-fipe-my.vercel.app' },
     { id: 3, type: 'back', image: imove, text: 'aluguel de carros', link: 'https://ridelux.vercel.app' },
     { id: 4, type: 'front', image: salão, text: 'salão e barbearia', link: 'https://salao01.vercel.app'},
-    { id: 5, type: 'back', image: deposito, texto: 'Depósito pedido integrado', link: 'https://depositomerceariadalagoa.vercel.app/'},
-    { id: 6, type: 'front', image: mary, texto: 'salão de beleza', link: 'https://mary-2424.vercel.app'}
+    { id: 5, type: 'back', image: deposito, text: 'Depósito pedido integrado', link: 'https://depositomerceariadalagoa.vercel.app/'},
+    { id: 6, type: 'front', image: mary, text: 'salão de beleza', link: 'https://mary-2424.vercel.app'}
   ];
 
   const handleTypeChange = (type) => {
